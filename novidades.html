@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reprogramafy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo-branco.png" alt="Reprogramafy">
+            </div>
+            <button class="botao">Login</button>
+        </nav>
+    </header>
+    <main>
+        <div id="player">
+            <figure class="capa">
+                <img src="https://i.scdn.co/image/21d3c06fe84e08f0f14f16243d2c1e76a08c86b1" alt="Capa do Álbum">
+            </figure>
+
+            <div class="musica">
+                <!-- Título da Música -->
+                <h1>Is that for me</h1>
+
+                <!-- Controles do Player -->
+                <div class="players-controls">
+                    <button class="botao-play">
+<svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+</svg></button>
+                    <audio src="https://p.scdn.co/mp3-preview/1d9fe8b793a54f64d43f6413754de5755551f5cd?cid=8897482848704f2a8f8d7c79726a70d4"></audio>
+
+                    <!-- Tempo de música -->
+                    <div class="player-tempo">
+                        <span class="tempo-atual">00:00</span>
+
+                        <!-- Barra de progresso de duração da música -->
+                        <div class="player-barra">
+                            <div class="tocado"></div>
+                        </div>
+
+                        <span class="duracao">00:30</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/player.js"></script>
+</body>
+
+</html>
